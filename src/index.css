@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+*{
+  user-select: none;
+}
 @font-face {
   font-family: shalyne;
   src: url("./assets/fonts/shalyne-typeface-personal-use-only/Shalyne\ Typeface\ PERSONAL\ USE\ ONLY.otf");
@@ -9,7 +12,7 @@
   src: url("./assets/fonts/kugile/Kugile_Demo.ttf");
 }
 .bgImage1{
-  background-image: url("./assets/images/cake-and-flower/cakeAndFlower3.webp");
+  background-image: url("./assets/images/shop/sera-iZgQKxuMRHc-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -23,4 +26,7 @@
 }
 .font-kugile{
   font-family: kugile;
+}
+.bg-Blur{
+  backdrop-filter: blur(3px);
 }
