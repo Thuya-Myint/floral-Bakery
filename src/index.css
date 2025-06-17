@@ -30,3 +30,11 @@
 .bg-Blur{
   backdrop-filter: blur(3px);
 }
+.textCon{
+    display: none;
+}
+.imageCon:hover{
+  .textCon{
+    display: block;
+  }
+}
