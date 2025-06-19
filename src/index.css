@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.headerImage{
+    background-image: url("./assets/image/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+}
