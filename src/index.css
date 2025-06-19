@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme{
+  --color-rod:#fda22e
+}
+
+@font-face {
+  font-family:geistMonoULight ;
+  src: url('./assets/fonts/geist-mono/statics-otf/GeistMono-UltraLight.otf');
+}
+@font-face {
+  font-family:geistMonoThin ;
+  src: url('./assets/fonts/geist-mono/statics-otf/GeistMono-Thin.otf');
+}
+.headerImg{
+  background-image: url("./assets/image/landing/bg1.png");
+  background-position: center;
+  background-size: covers;
+}
+.geistMonoULight{
+ font-family: geistMonoULight;
+}
+.geistMonoThin{
+ font-family: geistMonoThin;
+}
+.blurr{
+  -webkit-backdrop-filter: blur(10px);
+}
